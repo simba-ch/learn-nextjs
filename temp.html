@@ -1,0 +1,11 @@
+<Layout>
+    <Template>
+        <ErrorBoundary fallback="{<Error/>}">
+            <Suspense fallback={<Loading />}>
+            <Page>
+                <Link href="/other">导航到其他路由</Link>
+            </Page>
+            </Suspense>
+        </ErrorBoundary>
+    </Template>
+</Layout>
